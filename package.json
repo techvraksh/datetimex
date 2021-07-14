@@ -1,0 +1,19 @@
+{
+  "name": "@techvraksh/datetimex",
+  "version": "1.0.0",
+  "description": "Sample package where one can send js dateobject and can get information from it",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techvraksh/datetimex.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/techvraksh/datetimex/issues"
+  },
+  "homepage": "https://github.com/techvraksh/datetimex#readme"
+}
