@@ -1,8 +1,12 @@
 module.exports = {
- getFullMonth:(date) =>{
-    const monthNames = ["January", "February", "March", "April", "May", "June",
-    "July", "August", "September", "October", "November", "December"
-  ];
-  return monthNames[date.getMonth()]
-}
-}
+
+  getMonth: (date, format = 'en-US') => {
+    var options = { month: 'long' };
+    return date.toLocaleDateString(format, options)
+    //return getAllMonths().find((month) => month.id === [date.getMonth()]);
+  },
+  getDay: (date, format = 'en-US') => {
+    return date.toLocaleDateString(format, options)
+    //return getAllDays().find((day) => day.id === [date.getDay()]);
+  },
+};
